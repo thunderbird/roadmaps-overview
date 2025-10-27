@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Android Roadmap - Roadmaps</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Roadmaps</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../desktop/" class="nav-link">Desktop Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Android Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ios/" class="nav-link">iOS Roadmap</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../desktop/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../ios/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#active" class="nav-link">🏗️ Active</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#planned" class="nav-link">📋 Planned</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#launched" class="nav-link">🚀 Launched</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#backlog" class="nav-link">🗃️ Backlog</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Welcome to the <strong>Thunderbird for Android</strong> roadmap!</p>
+<h1 id="active">🏗️ Active</h1>
+<ul>
+<li><strong>Account Drawer Improvements</strong> - Redesign the account drawer to enhance the usability and clarity of the drawer. This adds the ability to set a different icon for each account, displays account names and associated email addresses in a wide format, and adds a visual indication that an account is selected.</li>
+<li><strong>Sync Debug Tooling</strong> - Implement a better logging mechanism to enable fixing commonly reported sync/push issues.</li>
+<li><strong>In-app Error Notifications</strong> - Inform the user of errors that occurred while the app was performing foreground or background operations.</li>
+<li><strong>Android 15 Compat (Edge to Edge)</strong> - Update the app to target Android 15.</li>
+</ul>
+<h1 id="planned">📋 Planned</h1>
+<ul>
+<li><strong>Display current "push state" to the use</strong> - Inform the user of errors that occurred while the app was waiting for new messages via push to make receiving emails more reliable and actionable.</li>
+<li><strong>Refactor Message Synchronization</strong> - Automatically fetch messages from the server when a user opens a folder or when scrolling down the message list and reaches the end of the downloaded messages.</li>
+<li><strong>Telemetry Prompt and Crash Reporting</strong> - Integrate the Glean SDK into Thunderbird for Android to be able use its telemetry to inform development.</li>
+<li><strong>Refactor Message Compose</strong> - Improve the HTML parsing for sending emails</li>
+<li><strong>Clean Up Folder Settings UX</strong> - Make it easier for the user to understand the dependencies between different folder settings.</li>
+<li><strong>Set better defaults for QR code import</strong> - Improve the experience of users importing their accounts from Thunderbird desktop.</li>
+<li><strong>Refactor Message List</strong> - Limit the amount of memory used to display the message list by only loading information about a limited number of messages into memory at a time. </li>
+<li><strong>HTML Signatures</strong> - Give users a way to set HTML signatures.</li>
+<li><strong>Quick Filters and Email Actions</strong> - allow the user to quickly filter the message list using certain message attributes like read state, star state, whether or not there is an attachment present.</li>
+</ul>
+<h1 id="launched">🚀 Launched</h1>
+<ul>
+<li><strong>CASA Approval</strong> - Complete the Cloud Application Security Assessment (CASA)</li>
+</ul>
+<h1 id="backlog">🗃️ Backlog</h1>
+<ul>
+<li><strong>Send Later / Undo Send</strong> - Provide a scheduled mail feature where mail would only be sent at a specific time as well as the ability to undo a sent email within some period of time.</li>
+<li><strong>Thunderbird Android Sync</strong> - Implement Mozilla Sync to Thunderbird for Android to allow users to store data (mail server settings, identities, and passwords) in an end-to-end encrypted stream and be able to sync between devices.</li>
+<li><strong>JMAP Support</strong> - Add support for mail servers that use the JMAP protocol.</li>
+<li><strong>Conversation View</strong> - In addition to the current threaded view, add support for a conversation view that displays all messages in a conversation.</li>
+<li><strong>Material You</strong> - Implement Material You support for a more modern feel.</li>
+<li><strong>Smart Email Summaries</strong> - Offer users the option to have an LLM parse the content of the email, and create a short digest, providing a more meaningful overview of a new message.</li>
+<li><strong>Folder Hierarchy</strong> - Show the list of folders in a hierarchy and collapse folders as needed to enable users to better navigate between folders and be more productive when finding an email.</li>
+<li><strong>Simplified Settings</strong> - Review the settings and make it more simple to use, while providing more advanced users with an opportunity to customize.</li>
+<li><strong>Inline PDF Viewer</strong> - Use Pdf.js to open PDF files before prompting the user to open the PDF in another application.</li>
+<li><strong>Migrate to the new Preferences System</strong> - Modernize the preferences system, allowing the application to better react to preferences changes.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

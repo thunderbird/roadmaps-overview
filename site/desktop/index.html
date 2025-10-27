@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Desktop Roadmap - Roadmaps</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Roadmaps</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Desktop Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../android/" class="nav-link">Android Roadmap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../ios/" class="nav-link">iOS Roadmap</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../android/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#active" class="nav-link">🏗️ Active</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#planned" class="nav-link">📋 Planned</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#launched" class="nav-link">🚀 Launched</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#backlog" class="nav-link">🗃️ Backlog</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Welcome to the <strong>Thunderbird Desktop</strong> client roadmap! </p>
+<h1 id="active">🏗️ Active</h1>
+<ul>
+<li><strong>Conversation View</strong> - Implement an optional threaded layout allowing to view a whole conversation with collapsable and expandable messages.This text is inside an HTML div with a border.</li>
+<li><strong>Calendar UI/UX Overhaul</strong> - Refresh and modernize the interface of the calendar space.</li>
+<li><strong>First Time User Experience</strong> - Implement a new account setup flow and simplify the creation and discovery of calendars and address books.</li>
+<li><strong>Global Message Database</strong> - Improve a new global database and replace the existing per-folder model.</li>
+</ul>
+<h1 id="planned">📋 Planned</h1>
+<ul>
+<li><strong>Unified Toolbar Completion</strong> - Consume the Unified Toolbar in all other needed spaces and replace the old customizable code.</li>
+<li><strong>Rearchitect Tabs and Spaces</strong> - Rebuild the spaces and tabs so that each space handles their own tabs.</li>
+<li><strong>System Tray</strong> - Implement a native system tray with common actions.</li>
+<li><strong>Compose Window Improvements</strong> - Modernize and improve the current message editor.</li>
+<li><strong>Settings Interface Improvements</strong> - Clean up and reorganize the settings into more discoverable sections and improve its search.</li>
+</ul>
+<h1 id="launched">🚀  Launched</h1>
+<ul>
+<li><strong>Exchange Email Support</strong> - Full support of email operations and account creation. [<a href="https://support.mozilla.org/en-US/kb/thunderbird-and-exchange">link</a>]</li>
+<li><strong>Native OS Notifications</strong> - Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. [<a href="https://blog.thunderbird.net/2025/08/monthly-release-141-recap/">link</a>]</li>
+<li><strong>Implement Glean Telemetry</strong> - Move away from the old telemetry implementation and add the new Glean Telemetry. [<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1899602">link</a>]</li>
+<li><strong>In-App Notifications</strong> - Implement a new notification system that allows the Thunderbird team to push important, time-sensitive information directly to a user's Thunderbird desktop client. [<a href="https://support.mozilla.org/en-US/kb/notifications-thunderbird">link</a>]</li>
+</ul>
+<h1 id="backlog">🗃️  Backlog</h1>
+<p><em>These initiatives have not been fully planned out yet with a timeline and a Scope of Work (SoW) but we are planning on planning them.</em></p>
+<ul>
+<li><strong>Chat Design Kickoff</strong> - Initial exploration and planning for a new Chat implementation.</li>
+<li><strong>Revamp Email Encryption</strong> - Streamline onboarding, configuration, and consumption of email encryption.</li>
+<li><strong>Exchange Calendar</strong> - Integrate the Exchange Calendar and support exchange-specific features.</li>
+<li><strong>Exchange Address Book</strong> - Integrate the Exchange Contacts and support exchange-specific features.</li>
+<li><strong>Exchange Graph API</strong> - Add support for the Graph API protocol that will eventually replace EWS.</li>
+<li><strong>Notes</strong> - Implement the ability to store notes in the user's profile and in Sync. Support markdown in addition to HTML and plain text inputs</li>
+<li><strong>Tasks</strong> - Provide a more modern UI, provide an optional kanban board, and integrate tasks into the calendar, address book, and emails.</li>
+<li><strong>Home Space</strong> - Improve the starting page to provide a summary of accounts, informative statistics about usage, and quick links to common actions.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
