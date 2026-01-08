@@ -1,9 +1,23 @@
 site_name: Roadmaps
 nav:
-#  - Home: index.md
+  - Home: index.md
   - Desktop Roadmap: desktop.md
   - Android Roadmap: android.md
   - iOS Roadmap: ios.md
-theme: 
-  name: mkdocs
-  #titles_only: True
+
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/TB-Council-opt.svg
+  font:
+    text: Inter
+  features:
+    - navigation.sections
+
+strict: true
+markdown_extensions:
+  - attr_list
+  - pymdownx.blocks.html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
