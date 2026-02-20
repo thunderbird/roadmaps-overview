@@ -1,4 +1,4 @@
-Welcome to the **Thunderbird Desktop** client roadmap! 
+Welcome to the **Thunderbird Desktop** client roadmap!
 
 # :construction_site: Active
 * **First Time User Experience** - Complete Account Hub for all account creations, enable it for first time users, and show a customization wizard after first account creation.
@@ -16,10 +16,10 @@ Welcome to the **Thunderbird Desktop** client roadmap!
 * **Encryption and Security Improvements** - Improve the support and discovery of OpenPGP and S/MIME, improve email tracking protection, and harden phishing email prevention.
 
 # :rocket: Launched
-* **Exchange Email Support** - Full support of email operations and account creation. [[link](https://support.mozilla.org/en-US/kb/thunderbird-and-exchange)]
-* **Native OS Notifications** - Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. [[link](https://blog.thunderbird.net/2025/08/monthly-release-141-recap/)]
-* **Implement Glean Telemetry** - Move away from the old telemetry implementation and add the new Glean Telemetry. [[link](https://bugzilla.mozilla.org/show_bug.cgi?id=1899602)]
-* **In-App Notifications** - Implement a new notification system that allows the Thunderbird team to push important, time-sensitive information directly to a user's Thunderbird desktop client. [[link](https://support.mozilla.org/en-US/kb/notifications-thunderbird)]
+* **Exchange Email Support** - Full support of email operations and account creation. [link](https://support.mozilla.org/en-US/kb/thunderbird-and-exchange)
+* **Native OS Notifications** - Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. [link](https://blog.thunderbird.net/2025/08/monthly-release-141-recap/)
+* **Implement Glean Telemetry** - Move away from the old telemetry implementation and add the new Glean Telemetry. [link](https://bugzilla.mozilla.org/show_bug.cgi?id=1899602)
+* **In-App Notifications** - Implement a new notification system that allows the Thunderbird team to push important, time-sensitive information directly to a user's Thunderbird desktop client. [link](https://support.mozilla.org/en-US/kb/notifications-thunderbird)
 
 # :card_box: Backlog
 * **Spaces Toolbar Completion** - Continue the work on the spaces toolbar to implement a better spaces distinction, easy entry point to add extensions, vertical toolbars, and more customization options.
