@@ -14,8 +14,3 @@ Download Thunderbird for Android - [Google Play Store](https://play.google.com/s
 
 ## <i class="ph ph-rocket-launch"></i> Launched
 **CASA Approval** - Complete the Cloud Application Security Assessment (CASA)
-
-## Backlog
-**JMAP Support Exploration** - Planning for JMAP integration, learning what it means to add a new protocol on Android, and ensuring future proofing against proprietary protocols.
-**Exchange Support Exploration** - Supporting Exchange will allow Desktop users to stay inside our ecosystem and not need to switch between applications.
-**Calendar Exploration** - Emails and Calendars go hand in hand and it's time to start exploring the implementation of CalDav support and plan for a proper calendar integration on Android.

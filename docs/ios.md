@@ -14,7 +14,3 @@ Thunderbird for iOS. Follow the roadmap from active work to future ideas. Timeli
 ## <i class="ph ph-rocket-launch"></i> Launched
 **Architecture** - Establish a robust and scalable architecture to begin the Thunderbird for iOS project and create the backend. This architecture will include strategies for code sharing across platforms, taking into account the Android and Desktop clients.
 **Autoconfiguration** - Add DNS MX lookup to autoconfig feature library and move SRV record lookup into autoconfig feature library and delete Autodiscover core library
-
-## Backlog
-**Swipe Actions** - Implement the most common swipe actions to interact with the message list.
-**Calendar Exploration** - Emails and Calendars go hand in hand and we can start exploring the implementation of CalDav support and plan for a proper calendar integration on iOS.
