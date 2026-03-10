@@ -16,7 +16,7 @@ Thunderbird for Windows, macOS, and Linux. Follow the roadmap from active work t
 - **Encryption and Security Improvements** Improve the support and discovery of OpenPGP and S/MIME, improve email tracking protection, and harden phishing email prevention.
 
 ## <i class="ph ph-rocket-launch"></i> Shipped
-- **Exchange Email Support**  Full support of email operations and account creation. <div class="date-badge"> <a class="text" href="https://support.mozilla.org/en-US/kb/thunderbird-and-exchange">November 2025</a> </div>
-- **Native OS Notifications** Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. <div class="date-badge"> <a class="text" href="https://blog.thunderbird.net/2025/08/monthly-release-141-recap/">July 2025</a> </div>
-- **Implement Glean Telemetry** Move away from the old telemetry implementation and add the new Glean Telemetry. <div class="date-badge"> <a class="text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1899602">April 2025</a> </div>
-- **In-App Notifications** Implement a new notification system that allows the Thunderbird team to push important, time-sensitive information directly to a user's Thunderbird desktop client. <div class="date-badge"> <a class="text" href="https://support.mozilla.org/en-US/kb/notifications-thunderbird">May 2025</a> </div>
+- **Exchange Email Support**  Full support of email operations and account creation. <div class="date-badge">November 2025</div>
+- **Native OS Notifications** Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. <div class="date-badge">July 2025</div>
+- **Implement Glean Telemetry** Move away from the old telemetry implementation and add the new Glean Telemetry. <div class="date-badge">April 2025</div>
+- **In-App Notifications** Implement a new notification system that allows the Thunderbird team to push important, time-sensitive information directly to a user's Thunderbird desktop client. <div class="date-badge">May 2025</div>
