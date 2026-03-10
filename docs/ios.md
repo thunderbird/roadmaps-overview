@@ -1,6 +1,7 @@
-# iOS Roadmap
-
-Thunderbird for iOS. Follow the roadmap from active work to future ideas. Timelines may shift as we learn and iterate.
+<div class="product-roadmap-header">
+  <h1>iOS Roadmap</h1>
+  <p>Thunderbird for iOS. Follow the roadmap from active work to future ideas. Timelines may shift as we learn and iterate.</p>
+</div>
 
 ## <i class="ph ph-pulse"></i> Active
 - **Account Creation Flow** Implement a full automated and manual setup, including autodiscovery and OAuth.

@@ -1,6 +1,7 @@
-# Services Roadmap
-
-Thunderbird Pro Services and Infrastructure Support. Follow the roadmap from active work to future ideas. Timelines may change as we learn and iterate.
+<div class="product-roadmap-header">
+  <h1>Services Roadmap</h1>
+  <p>Thunderbird Pro Services and Infrastructure Support. Follow the roadmap from active work to future ideas. Timelines may change as we learn and iterate.</p>
+</div>
 
 ## <i class="ph ph-pulse"></i> Active
 - **Send UI Completion** - Send was the one product we haven't been able to complete UI overhaul work. We don't need to block the rollout for this, but we should work on this to keep it up to par with the other products and create consistency.

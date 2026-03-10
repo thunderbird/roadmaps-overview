@@ -1,8 +1,8 @@
-# Desktop Roadmap
-
-Thunderbird for Windows, macOS, and Linux. Follow the roadmap from active work to future ideas. Timelines may shift as we learn and iterate.
-
-[Download Thunderbird for desktop](https://www.thunderbird.net/en-US/thunderbird/all/)
+<div class="product-roadmap-header">
+  <h1>Desktop Roadmap</h1>
+  <p>Thunderbird for Windows, macOS, and Linux. Follow the roadmap from active work to future ideas. Timelines may shift as we learn and iterate.</p>
+  <p><a href="https://www.thunderbird.net/en-US/thunderbird/all/#select-download-desktop">Download Thunderbird for desktop</a></p>
+</div>
 
 ## <i class="ph ph-pulse"></i> Active
 - **Exchange (EWS, GraphAPI)** Finalize the work on the Exchange protocol in order to support all versions of Exchange and Microsoft 365, including calendar and address book support.

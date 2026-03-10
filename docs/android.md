@@ -1,8 +1,8 @@
-# Android Roadmap
-
-Thunderbird for Android. Follow the roadmap from active work to to future ideas. Timelines may shift as we learn and iterate.
-
-Download Thunderbird for Android - [Google Play Store](https://play.google.com/store/apps/details?id=net.thunderbird.android&hl=en_US), [F-Droid](https://f-droid.org/en/packages/net.thunderbird.android/)
+<div class="product-roadmap-header">
+<h1>Android Roadmap</h1>
+<p>Thunderbird for Android. Follow the roadmap from active work to to future ideas. Timelines may shift as we learn and iterate.</p>
+<p><a href="https://www.thunderbird.net/en-US/thunderbird/all/#select-download-mobile">Download Thunderbird for Android</a></p>
+</div>
 
 ## <i class="ph ph-pulse"></i> Active
 - **Rearchitecture and Core Maintenance** Modernize the source code that we inherited from K9, tackle the most glaring maintenance and stability issues, and restructure the core architecture for faster and easier development.
