@@ -4,7 +4,7 @@
 </div>
 
 ## <i class="ph ph-pulse"></i> Active
-- **Send UI Completion** - Send was the one product we haven't been able to complete UI overhaul work. We don't need to block the rollout for this, but we should work on this to keep it up to par with the other products and create consistency.
+- **Send UI Completion** Send was the one product we haven't been able to complete UI overhaul work. We don't need to block the rollout for this, but we should work on this to keep it up to par with the other products and create consistency.
 - **Dev environments for PRs** We'd like to make it easier to test pull request changes without setting up too much infrastructure locally. Using dev environments will help us achieve this.
 - **Financial Contributions Appeals** As an organization primarily funded by financial contributions from users, we need to implement a number of appeals in the year. This goal serves to implement the design/marketing changes for the appeals and roll them out using our infrastructure.
 - **Active Sessions** Give the user a view on their active sessions and allow them to end the session. <bolt-primary-button
