@@ -14,3 +14,4 @@
 
 ## <i class="ph ph-rocket-launch"></i> Shipped
 - **Architecture** Establish a robust and scalable architecture to begin the Thunderbird for iOS project and create the backend. This architecture will include strategies for code sharing across platforms, taking into account the Android and Desktop clients. <div class="date-badge">July 2025</div>
+- **Autoconfiguration** Add DNS MX lookup to autoconfig feature library and move SRV record lookup into autoconfig feature library and delete Autodiscover core library <div class="date-badge">September 2025</div>
