@@ -13,5 +13,4 @@
 - **HTML Signatures** A long time requested feature that alongside Sync will strengthen the continuity between our apps and the first step towards a working ecosystem.
 
 ## <i class="ph ph-rocket-launch"></i> Shipped
-- **Architecture** Establish a robust and scalable architecture to begin the Thunderbird for iOS project and create the backend. This architecture will include strategies for code sharing across platforms, taking into account the Android and Desktop clients.
-- **Autoconfiguration** Add DNS MX lookup to autoconfig feature library and move SRV record lookup into autoconfig feature library and delete Autodiscover core library
+- **Architecture** Establish a robust and scalable architecture to begin the Thunderbird for iOS project and create the backend. This architecture will include strategies for code sharing across platforms, taking into account the Android and Desktop clients. <div class="date-badge">July 2025</div>
