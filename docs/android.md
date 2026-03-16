@@ -13,4 +13,4 @@
 - **HTML Signature** Give users a way to set HTML signatures. This is a long time requested feature that alongside Sync will strengthen the continuity between our apps and the first step towards a working ecosystem.
 
 ## <i class="ph ph-rocket-launch"></i> Shipped
-- **CASA Approval** Complete the Cloud Application Security Assessment (CASA)
+- **CASA Approval** Complete the Cloud Application Security Assessment (CASA) <div class="date-badge">March 2025</div>
