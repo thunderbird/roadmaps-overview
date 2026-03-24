@@ -18,5 +18,5 @@
 Webmail will be built with JMAP as a backend, and we need to explore how users can benefit from Webmail while still being encouraged to use end to end encryption and allowing search across folders.
 
 ##  <i class="ph ph-rocket-launch"></i> Shipped
-- **Thundermail: Spam Filtering** The spam filtering was very aggressive, causing many emails to unintentionally land in the spam folder. The filtering mechanism has been changed to significantly improve this behavior. <div class="date-badge">March 2026</div>
+- **Thundermail: Spam Filtering** The spam filtering was very aggressive, causing many emails to unintentionally land in the spam folder. The filtering mechanism has been changed to significantly improve this behavior. A big thank you to Mauro and team from Stalwart, who have made the spam detection algorithm more sophisticated and accurate! <div class="date-badge">March 2026</div>
 
