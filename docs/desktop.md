@@ -11,12 +11,13 @@
 - **Improve and extend existing add-ons APIs** Improve the currently available APIs, focus on giving access to new sections and core features, as well as introducing new APIs for specific sections.
 
 ## <i class="ph ph-calendar-blank"></i> Planned
-- **First Time User Experience** Complete Account Hub for all account creations, enable it for first time users, and show a customization wizard after first account creation.
 - **Calendar Dialogs UI/UX** Complete the refresh of the calendar interface and user experience. Some protocols handling changes might be needed.
 - **Settings Interface Improvements** Clean up and reorganize the settings into more discoverable sections and improve its search.
 - **Encryption and Security Improvements** Improve the support and discovery of OpenPGP and S/MIME, improve email tracking protection, and harden phishing email prevention.
 
 ## <i class="ph ph-rocket-launch"></i> Shipped
+- **First Time User Experience: Account Hub** Complete Account Hub for all account creations, enable it for first time users. <div class="date-badge">March 2026</div>
+- **Unobtrusive Signatures** This was part of the larger “Encryption and Security Improvements” initiative and has been completed to reduce confusion around OpenPGP signatures. <div class="date-badge">March 2026</div>
 - **Exchange Email Support**  Full support of email operations and account creation. <div class="date-badge">November 2025</div>
 - **Native OS Notifications** Add quick actions to reply, delete, mark messages as read/unread, and manage the notifications. <div class="date-badge">July 2025</div>
 - **Implement Glean Telemetry** Move away from the old telemetry implementation and add the new Glean Telemetry. <div class="date-badge">April 2025</div>
