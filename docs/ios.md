@@ -1,7 +1,7 @@
 <div class="product-roadmap-header">
   <h1>iOS Roadmap</h1>
   <p>Thunderbird for iOS. Follow the roadmap from active work to future ideas. Timelines may shift as we learn and iterate.</p>
-  <p style="font-size: 16px;">Last updated March 17, 2026</p>
+  <p style="font-size: 16px;">Last updated March 31, 2026</p>
   <p><a href="https://testflight.apple.com/join/ER3hRBSz">Download TestFlight app</a></p>
 </div>
 
