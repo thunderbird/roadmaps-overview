@@ -1,8 +1,8 @@
 <div class="product-roadmap-header">
   <h1>Services Roadmap</h1>
-  <p>Thunderbird Pro Services and Infrastructure Support. Follow the roadmap from active work to future ideas. Timelines may change as we learn and iterate.</p>
+  <p>Thundermail Services and Infrastructure Support. Follow the roadmap from active work to future ideas. Timelines may change as we learn and iterate.</p>
   <p style="font-size: 16px;">Last updated August 4, 2026</p>
-  <p><a href="https://ideas.tb.pro">Submit your ideas for Thunderbird Pro</a></p>
+  <p><a href="https://ideas.tb.pro">Submit your ideas for Thundermail</a></p>
 </div>
 
 ## <i class="ph ph-pulse"></i> Active
@@ -10,7 +10,7 @@
 - **Thundermail: Webmail** What would an email service be without webmail? We will spend time making the proof of concept more usable, and enable this as an experimental feature for users willing to try new things early. The scope will initially be limited to basic folder visibility and message display.
 
 ## <i class="ph ph-calendar-blank"></i> Planned
-- **Improve Pro Add-on Integration** We are shipping a Thunderbird Pro add-on to enable Pro features in Thunderbird desktop. For a low barrier of entry we want to improve integration by using the system add-on or new account add-on mechanism. This allows us to make these features easier to discover and use within Thunderbird.
+- **Improve Thundermail Add-on Integration** We are shipping an add-on that enables Thundermail features in Thunderbird desktop. To keep the barrier to entry low, we want to improve integration by using the system add-on or the new account add-on mechanism. This makes these features easier to discover and use within Thunderbird.
 - **Import email, contacts, and calendar feature** As one of the top ideas on ideas.tb.pro, we have added this suggestion from: https://ideas.tb.pro/p/import-email-calendar-and-contacts-feature and it fits into our quest to make Thundermail the users’ primary inbox.
 
 
